@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 18px 0;
+    background-color: rgb(34, 31, 31);
+    color: #ecf0f1;
+}
+
+header h1 {
+    font-family: "Lora", serif;
+    text-align: center;
+    font-weight: normal; 
+}
+
+.picture-game {
+    height: 550px;
+    margin: 14px auto;
+    display: block;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+.lateral-direita {
+    font-weight: bold;
+    height: 130px;
+    width: 440px;
+    text-align: center;
+    margin: 20px 65px 50px 220px;
+}
+
+.lateral-esquerda {
+    font-weight: normal;
+    width: 260px;
+}
+
+.lateral-esquerda h4 {
+    margin-bottom: 6px;
+    color: #6686df;
+}
+
+form input,
+form button {
+    display: block;
+    width: 250px;
+    margin-bottom: 6px;
+    padding: 4px;
+}
+
+form button {
+    background-color: rgb(112, 112, 112);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+footer {
+    background-color:  rgb(48, 45, 45);
+    color: #ecf0f1;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
